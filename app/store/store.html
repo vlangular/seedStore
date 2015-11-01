@@ -1,1 +1,10 @@
-<p>Seed store!</p>
+<div class="product" ng-repeat="seed in seeds" style="background-image: url(img/{{seed.image}});">
+    <h1>{{seed.name}}</h1>
+    <p>{{seed.description}}</p>
+    <div class="button">
+        <div class="price">{{seed.price | currency}}</div>
+        <a class="addtocart">
+            <div class="add">See more</div>
+        </a>
+    </div>
+</div>
