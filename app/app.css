@@ -7,7 +7,7 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 300;
   font-size: 1em;
-  color: #fff;
+  color: #353535;
 }
 
 /* Header
@@ -113,6 +113,7 @@ footer p {
   transform: rotateY(0deg) translateZ(25px);
 }
 .product .button .addtocart {
+
   position: absolute;
   left: 48px;
   width: 100%;
