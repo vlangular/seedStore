@@ -1,0 +1,58 @@
+[
+	{
+		"id" : 1,
+		"name":"Hazelnuts",
+		"description":"Consectetur adipiscing elit. Vestibulum condimentum turpis nec nunc scelerisque convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas id diam enim.",
+		"price": 9.99,
+		"image": "hazelnuts.png"
+	},
+	{
+		"id" : 2,
+		"name":"Red Beans",
+		"description":"Consectetur adipiscing elit. Vestibulum condimentum turpis nec nunc scelerisque convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas id diam enim.",
+		"price": 9.99,
+		"image": "red_beans.png"
+	},
+	{
+		"id" : 3,
+		"name":"Beans",
+"description":"Consectetur adipiscing elit. Vestibulum condimentum turpis nec nunc scelerisque convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas id diam enim.",
+		"price": 12.99,
+		"image": "beans.png"
+	},
+	{
+		"id" : 4,
+		"name":"Striped Beans",
+"description":"Consectetur adipiscing elit. Vestibulum condimentum turpis nec nunc scelerisque convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas id diam enim.",
+		"price": 12.99,
+		"image": "striped_beans.png"
+	},
+	{
+		"id" : 5,
+		"name":"Little Seeds",
+"description":"Consectetur adipiscing elit. Vestibulum condimentum turpis nec nunc scelerisque convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas id diam enim.",
+		"price": 9.99,
+		"image": "little_seeds.png"
+	},
+    {
+		"id" : 6,
+		"name":"Black Corn",
+"description":"Consectetur adipiscing elit. Vestibulum condimentum turpis nec nunc scelerisque convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas id diam enim.",
+		"price": 29.99,
+		"image": "black_corn.png"
+	},
+    {
+		"id" : 7,
+		"name":"Corn",
+"description":"Consectetur adipiscing elit. Vestibulum condimentum turpis nec nunc scelerisque convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas id diam enim.",
+		"price": 9.99,
+		"image": "corn.png"
+	},
+    {
+		"id" : 8,
+		"name":"Chinoa",
+"description":"Consectetur adipiscing elit. Vestibulum condimentum turpis nec nunc scelerisque convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas id diam enim.",
+		"price": 19.99,
+		"image": "chinoa.png"
+	}
+]
