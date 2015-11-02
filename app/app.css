@@ -1,5 +1,23 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+section {
+    padding-bottom: 40px;
+}
+section:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
 /* Body
  * ============================ */
 body {
@@ -35,6 +53,10 @@ footer {
   background: #111;
   font-size: 0.85em;
   color: #fff;
+  position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 footer p {
   margin: 0 1em;
@@ -48,8 +70,7 @@ footer p {
   position: relative;
   z-index: 1;
   float: left;
-  width: 50%;
-  height: 300px;
+  width: 33%;
   overflow: hidden;
   background-position: center center;
   background-size: cover;
@@ -66,7 +87,7 @@ footer p {
   top: 0;
   display: inline-block;
   width: 100%;
-  height: 300px;
+  height: 100%;
   background: rgba(0, 0, 0, 0.8);
   content: "";
 }
@@ -88,6 +109,7 @@ footer p {
 .product p {
   margin-bottom: 30px;
   line-height: 1.5em;
+  color: #fff;
 }
 .product .button {
   position: relative;
@@ -180,5 +202,70 @@ footer p {
   }
   20%, 40%, 60%, 80% {
     transform: translateX(5px);
+  }
+}
+
+/* Product page */
+.product-details img {
+  max-width: 100%;
+}
+
+.product-details figure {
+  margin: 0;
+  line-height: 0;
+}
+
+.product-details {
+  background: #fff;
+  max-width: 600px;
+  position: relative;
+  z-index: 15;
+  margin: 0 auto;
+  text-align: center;
+}
+.product-details .product-description {
+  position: relative;
+  z-index: 15;
+  background: #fff;
+  text-align: left;
+}
+.product-details .product-description:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+.product-details .product-description .info {
+  padding: 15px;
+  color: #aaa;
+  font-size: 0.85em;
+  width: 75%;
+  float: left;
+}
+.product-details .product-description .info h1 {
+  font-size: 20px;
+  margin: 0 0 5px;
+}
+.product-details .product-description .info p {
+  margin-bottom: 15px;
+  line-height: 1.3em;
+}
+.product-details .product-description .price {
+  width: 25%;
+  float: left;
+  color: #9bb6aa;
+  font-size: 3.5em;
+  position: relative;
+  margin-top: 25px;
+}
+.product-details .product-description .price::before {
+  content: '$';
+  position: absolute;
+  top: 0;
+  left: -10px;
+  font-size: 0.35em;
+}
+@media screen and (max-width: 480px) {
+  #content {
+    margin-top: 60px;
   }
 }
